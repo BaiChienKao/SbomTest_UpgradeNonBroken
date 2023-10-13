@@ -1,0 +1,19 @@
+api_version: 2
+name: VulnTestProject
+description: NVIDIA FLARE sample project yaml file
+
+participants:
+  # change example.com to the FQDN of the server
+  - name: VulnTestProject.com
+    type: server
+    org: nvidia
+    fed_learn_port: 8002
+    admin_port: 8003
+    # enable_byoc loads python codes in app.  Default is false.
+    enable_byoc: true
+
+# The same methods in all builders are called in their order defined in builders section
+builders:
+  - path: nvflare.lighter.impl.workspace.WorkspaceBuilder
+    args:
+      template_file: master_template.yml
