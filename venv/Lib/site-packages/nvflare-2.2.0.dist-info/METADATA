@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: nvflare
+Version: 2.2.0
+Summary: Federated Learning Application Runtime Environment
+Home-page: https://github.com/NVIDIA/NVFlare
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7,<3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography (>=36.0.0)
+Requires-Dist: Flask (==2.1.2)
+Requires-Dist: google-api-python-client (==2.49.0)
+Requires-Dist: grpcio (==1.46.3)
+Requires-Dist: gunicorn (==20.1.0)
+Requires-Dist: numpy
+Requires-Dist: protobuf (==3.20.1)
+Requires-Dist: psutil (==5.9.1)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: six (>=1.15.0)
+Requires-Dist: tenseal (==0.3.0)
+Requires-Dist: msgpack (==1.0.3)
+
+**NV**IDIA **F**ederated **L**earning **A**pplication **R**untime **E**nvironment
+
+
+[NVIDIA FLARE](https://nvflare.readthedocs.io/en/main/index.html) enables researchers to collaborate and build AI models without sharing private data. 
+
+NVIDIA FLARE is a standalone python library designed to enable federated learning amongst different parties using their local secure protected data for client-side training, at the same time it includes capabilities to coordinate and exchange progressing of results across all sites to achieve better global model while preserving data privacy. The participating clients can be in any part of the world. 
+
+NVIDIA FLARE builds on a flexible and modular architecture and is abstracted through APIs allowing developers & researchers to customize their implementation of functional learning components in a Federated Learning paradigm. 
+
+Learn more - [NVIDIA FLARE](https://nvflare.readthedocs.io/en/main/index.html).
+
+
+## Installation
+
+To install [the current release](https://pypi.org/project/nvflare), you can simply run:
+
+```bash
+pip install nvflare
+```
+
+## Third party license
+
+See 3rdParty folder for their license files.
+
+

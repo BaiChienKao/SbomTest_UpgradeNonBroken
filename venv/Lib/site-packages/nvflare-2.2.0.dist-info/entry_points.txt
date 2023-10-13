@@ -1,0 +1,5 @@
+[console_scripts]
+authz_preview = nvflare.fuel.hci.tools.authz_preview:main
+nvflare = nvflare.cli:main
+poc = nvflare.lighter.poc:main
+provision = nvflare.lighter.provision:main
