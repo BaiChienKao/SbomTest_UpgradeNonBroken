@@ -664,9 +664,9 @@
       "type": "library",
       "author": "The Python Cryptographic Authority and individual contributors \u003ccryptography-dev@python.org\u003e",
       "name": "cryptography",
-      "version": "41.0.4",
-      "cpe": "cpe:2.3:a:python_cryptographic_authority_and_individual_contributors:python-cryptography:41.0.4:*:*:*:*:*:*:*",
-      "purl": "pkg:pypi/cryptography@41.0.4",
+      "version": "39.0.0",
+      "cpe": "cpe:2.3:a:python_cryptographic_authority_and_individual_contributors:python-cryptography:39.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/cryptography@39.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2592,9 +2592,9 @@
     {
       "type": "library",
       "name": "nvflare",
-      "version": "2.2.0",
-      "cpe": "cpe:2.3:a:python-nvflare:python-nvflare:2.2.0:*:*:*:*:*:*:*",
-      "purl": "pkg:pypi/nvflare@2.2.0",
+      "version": "2.0.16",
+      "cpe": "cpe:2.3:a:python-nvflare:python-nvflare:2.0.16:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/nvflare@2.0.16",
       "properties": [
         {
           "name": "syft:package:foundBy",
